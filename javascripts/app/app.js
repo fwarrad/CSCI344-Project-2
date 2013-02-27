@@ -18,8 +18,8 @@ var main = function () {
             stream.on("data", function (tweet) {
                 // send twitter feed to html
              $("#twitter").delay(800000).fadeIn(900000).append("<ul>" + tweet.text + " </ul>");
-            // Prints 9 tweets at a time
-            if ($("ul").length > 9) {
+            // Prints 7 tweets at a time
+            if ($("ul").length > 7) {
               $("ul:first").fadeIn('slow');
               $("ul:first").remove();
               $("ul:first").fadeOut(500);
