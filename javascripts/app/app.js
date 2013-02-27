@@ -10,9 +10,10 @@ var main = function () {
         userChoice = $("#clientInput").val();
         $("#clientInputButton").hide();
         $("#clientInput").hide();
+        $("#instructions").hide();
         $(".newSearch").show();
         //display search term used
-        $("#twitterResults").html("<p> You entered: " + userChoice + "</p>");
+        $("#twitterResults").html("<p> You are trending live on: " + userChoice + "</p>");
         // loop the twitter feed
         twitter.stream("statuses/filter", { lang: "en", track: [userChoice] }, function (stream) {
             stream.on("data", function (tweet) {

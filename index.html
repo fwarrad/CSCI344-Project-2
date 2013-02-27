@@ -15,11 +15,12 @@
     <div id="content" class='content'>
       <h1 class='h1-head'>Welcome to B'rdHappy </h1>
       <p>&nbsp</p>
-      <h2>Want to Get B'rdHappy? Simply enter your hash tag!</h2>
-      <p>&nbsp</p>
+      <div id="instructions" class="instructions">
+        <h2>Want to Get B'rdHappy? Simply enter a hash tag!</h2>
+      </div>
       
     <div class="newSearch">
-      <p>Not Satisified?</p>
+      <p>Not Happy?</p>
       <button id="reset" onclick="history.go(0)">Get B'rdHappy!</button>
     </div> <!-- end of data-->
     
@@ -35,13 +36,18 @@
           <ul><!--app.js twitter feed --></ul>
         </div>
       </div> <!--end of content-->
+      
+    <!--le java scripts -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="javascripts/lib/ctwitter/build/ctwitter.js"></script>
+    <script src="javascripts/app/app.js"></script>
+    <script src="javascripts/lib/jquery.backstretch.min.js"></script>
     
-  </body>
-  
-      <!--le java scripts -->
-       <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-       <script src="javascripts/lib/ctwitter/build/ctwitter.js"></script>
-       <script src="javascripts/app/app.js"></script>
-
+    <script>
+      // To attach Backstrech as the body's backgroun
+      $.backstretch("images/bird_image_one.jpg");
+    </script>
+      
+  </body>  
   
 </html>

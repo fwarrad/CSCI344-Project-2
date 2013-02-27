@@ -1,6 +1,5 @@
 body {
   font-family: 'Ubuntu' sans-serif;
-  background: black;
   margin-top:150px;
   margin-bottom:125px;
   margin-right:50px;
@@ -11,16 +10,16 @@ body {
 .newSearch {
   display:none;
   overflow:hidden;
-  font-size: 12pt;
+  font-size: 14pt;
   font-weight: bold;
   color:#fff;
   text-align:center;
 }
 
 .content {
-  background: #6B8FD4;
+  background-color: rgba(0, 0, 0, 0.6);
   width: 1060px;
-  min-height: 330px;
+  min-height: 332px;
   margin-top:150px;
   margin-bottom:150px;
   margin-right:150px;
@@ -39,7 +38,7 @@ body {
   color:#fff;
 }
 
-.content h2 {
+.instructions h2 {
   font-size: 14pt;
   font-weight: bold;
   text-align:center;
@@ -48,7 +47,7 @@ body {
 
 .twitterContainer {
   
-  background: #6B8FD4;
+  background: #white;
   padding: 15px;
   min-height: 10px;
   margin: 0;
@@ -64,14 +63,6 @@ body {
   margin-left:10px;
   text-align:center;
 }
-
-/*.reset {
-  width: 1060px
-  margin-top:5px;
-  margin-bottom:5px;
-  margin-right:300px;
-  margin-left:380px;
-} */
 
 .twitter {
   font-size: 12pt;
