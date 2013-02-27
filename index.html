@@ -3,7 +3,7 @@
 <html>
   
   <head>
-    <title>Welcome to @gNosis Twitter Search! Search Twitter today!" </title>
+    <title>Welcome to B'rdHappy! Search Twitter today!" </title>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="stylesheets/app/app.css">
     <link rel="stylesheet" href="stylesheets/app/reset.css">
@@ -11,34 +11,37 @@
   </head>
   
   <body>
-    
+      
     <div id="content" class='content'>
-      <h1 class='h1-head'>Welcome to @gNosis Twitter Search </h1>
-      <h2 class='h2-head'>Simply enter your has tag</h2>
+      <h1 class='h1-head'>Welcome to B'rdHappy </h1>
       <p>&nbsp</p>
+      <h2>Want to Get B'rdHappy? Simply enter your hash tag!</h2>
+      <p>&nbsp</p>
+      
+    <div class="newSearch">
+      <p>Not Satisified?</p>
+      <button id="reset" onclick="history.go(0)">Get B'rdHappy!</button>
+    </div> <!-- end of data-->
     
-    <div id="twitterContainer" class="twitterContainer">
-      <h2></h2>
-      <div id="interface_div" class="interface_div"> 
-        <input id="user_input"></input>
-        <button id="user_input_button">Click 2 Search!</button>
-      </div>
-      <div id="twitter" class="twitter">
-        
-        <ul>
-          <!--app.js twitter feed -->
-        </ul>
-          
-      </div>
-        
-    </div>
-
+      <div class="twitterContainer">
+        <div class="interface_div">
+          <input type ="search" id="clientInput" />
+          <p></p>
+          <button id="clientInputButton">Get B'RdHappy'</button>
+        </div>
+        <div class="twitter" id="twitter">
+         <div style="display none" id="twitterResults"></div>
+          <p>&nbsp;</p>
+          <ul><!--app.js twitter feed --></ul>
+        </div>
+      </div> <!--end of content-->
     
   </body>
   
       <!--le java scripts -->
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="javascripts/lib/ctwitter/build/ctwitter.js"></script>
-    <script src="javascripts/app/app.js"></script>
+       <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+       <script src="javascripts/lib/ctwitter/build/ctwitter.js"></script>
+       <script src="javascripts/app/app.js"></script>
+
   
 </html>

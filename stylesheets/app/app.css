@@ -8,10 +8,19 @@ body {
   padding-top:25px;
 }
 
+.newSearch {
+  display:none;
+  overflow:hidden;
+  font-size: 12pt;
+  font-weight: bold;
+  color:#fff;
+  text-align:center;
+}
+
 .content {
   background: #6B8FD4;
   width: 1060px;
-  min-height: 285px;
+  min-height: 355px;
   margin-top:150px;
   margin-bottom:150px;
   margin-right:150px;
@@ -24,14 +33,14 @@ body {
 }
 
 .content h1 {
-  font-size: 25pt;
+  font-size: 20pt;
   font-weight: bold;
   text-align:center;
   color:#fff;
 }
 
 .content h2 {
-  font-size: 18pt;
+  font-size: 14pt;
   font-weight: bold;
   text-align:center;
   color:#fff;
@@ -51,9 +60,18 @@ body {
   width: 1060px
   margin-top:5px;
   margin-bottom:5px;
+  margin-right:10px;
+  margin-left:10px;
+  text-align:center;
+}
+
+/*.reset {
+  width: 1060px
+  margin-top:5px;
+  margin-bottom:5px;
   margin-right:300px;
   margin-left:380px;
-}
+} */
 
 .twitter {
   font-size: 12pt;
