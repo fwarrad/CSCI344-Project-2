@@ -47,6 +47,14 @@ body {
   
 }
 
+.interface_div {
+  width: 1060px
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-right:300px;
+  margin-left:380px;
+}
+
 .twitter {
   font-size: 12pt;
   font-weight: bold;
