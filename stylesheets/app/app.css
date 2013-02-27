@@ -1,0 +1,62 @@
+body {
+  font-family: 'Ubuntu' sans-serif;
+  background: black;
+  margin-top:150px;
+  margin-bottom:125px;
+  margin-right:50px;
+  margin-left:50px;
+  padding-top:25px;
+}
+
+.content {
+  background: #6B8FD4;
+  width: 1060px;
+  min-height: 285px;
+  margin-top:150px;
+  margin-bottom:150px;
+  margin-right:150px;
+  margin-left:150px;
+  border-style: solid;
+  border-width: 5px;
+  border-height: 30px;
+  border-color: white;
+  
+}
+
+.content h1 {
+  font-size: 25pt;
+  font-weight: bold;
+  text-align:center;
+  color:#fff;
+}
+
+.content h2 {
+  font-size: 18pt;
+  font-weight: bold;
+  text-align:center;
+  color:#fff;
+}
+
+.twitterContainer {
+  
+  background: #6B8FD4;
+  padding: 15px;
+  min-height: 10px;
+  margin: 0;
+  float: center;
+  
+}
+
+.twitter {
+  font-size: 12pt;
+  font-weight: bold;
+  color:#fff;
+  text-align: justify;
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-right:10px;
+  margin-left:10px;
+  float: top;
+}
+
+
