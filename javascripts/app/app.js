@@ -18,18 +18,22 @@ var main = function () {
         twitter.stream("statuses/filter", { lang: "en", track: [userChoice] }, function (stream) {
             stream.on("data", function (tweet) {
                 // send twitter feed to html
-             $("#twitter").delay(800000).fadeIn(900000).append("<ul>" + tweet.text + " </ul>");
+                $("#twitter").delay(800000).fadeIn(900000).append("<ul>" + tweet.text + " </ul>");
             // Prints 7 tweets at a time
-            if ($("ul").length > 7) {
-              $("ul:first").fadeIn('slow');
-              $("ul:first").remove();
-              $("ul:first").fadeOut(500);
-            } // count running totals for matching search term to keywords
-                
+                if ($("ul").length > 7) {
+                    $("ul:first").fadeIn('slow');
+                    $("ul:first").remove();
+                    $("ul:first").fadeOut(500);
+                } // count running totals for matching search term to keywords
             });  // end of stream.on
         }); // end of twitter.stream
     }); // end of .click function
 };// end of main
 
-$(document).ready(main);
+//sexy-page-curl-plugin function call 
+$(document).ready(function () {
+    "use strict";
+    $('#target').fold();
+});
 
+$(document).ready(main);
